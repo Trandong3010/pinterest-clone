@@ -17,7 +17,7 @@ const generateRandomImageUrl = () => faker.image.imageUrl();
 // Generate a random post
 const generateRandomPost = () => ({
   id: faker.datatype.uuid(),
-  image: generateRandomImageUrl(),
+  image: "https://random.imagecdn.app/500/150",
   name: faker.name.title(),
   description: faker.lorem.sentence(),
 });
